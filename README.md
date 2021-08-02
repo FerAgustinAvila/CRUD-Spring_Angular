@@ -8,11 +8,11 @@
 * CSS
 * Bootstrap
 * rxjs
-** Map
-** Subscribe
-** Tap
-** CatchError
-** ThrowError
+    * Map
+    * Subscribe
+    * Tap
+    * CatchError
+    * ThrowError
 * Router
 * Swal
 
@@ -20,14 +20,14 @@
 * Java
 * JPA/hibernate
 * Javax
-** Persistence
-** Validation
+    * Persistence
+    * Validation
 * Http -> Response/Status
 * Bind/Annotation
-** Put
-** Get
-** Post
-** Request
+    * Put
+    * Get
+    * Post
+    * Request
 * Stream
 
 ### DB
