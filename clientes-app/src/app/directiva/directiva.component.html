@@ -1,0 +1,17 @@
+<!--<button 
+ (click)="habilitar = ( habilitar == true) ? false : true"  -->
+<button 
+(click)="setHabilitar()" 
+type="button" class="btn btn-primary my-3">
+    {{ habilitar == true ? 'Ocultar' : 'Mostrar' }}
+</button>
+<div class="card">
+    <div class="card-header">
+        Lista de lenguajes
+    </div>
+    <ul class="list-group" *ngIf="habilitar">
+        <li class="list-group-item" *ngFor="let leng of listaLenguajes">
+            {{ leng }}
+        </li>
+    </ul>
+</div>
